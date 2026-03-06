@@ -8,13 +8,13 @@ load_dotenv()
 
 # Get this value from my.telegram.org/apps
 API_ID = int(getenv("API_ID"))
-API_HASH = getenv("e8f8739959e4fbe917f4780c13625543")
+API_HASH = getenv("API_HASH")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("8451076348:AAGZ6lTFcBMH-TaBTW9AmvYyjOYUoqxxThs")
+BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("mongodb+srv://Abhinavstore:storeabhinavpass@cluster0.2iecbov.mongodb.net/?appName=Cluster0", None)
+MONGO_DB_URI = getenv("MONGO_DB_URL", None)
 
 # Vars For API End Pont.
 YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com') ## xBit Music Endpoint.
@@ -24,10 +24,10 @@ YT_API_KEY = getenv("xbit_ym59-ALejEBQZezl97zGvLhLrk8rJ4hX" , None ) ## Your API
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("-1003830365185"))
+LOGGER_ID = int(getenv("LOGGER_ID"))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("8094093317"))
+OWNER_ID = int(getenv("OWNER_ID"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
